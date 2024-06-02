@@ -1,0 +1,38 @@
+.container {
+    max-width: 1280px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../../public//images/background2.jpg);
+    width: 100%;
+    height: 300px;
+    padding: 75px 70px;
+}
+.title {
+    font-size: 40px;
+    color: #FFF;
+}
+.text {
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 600;
+}
+.copyRight {
+    padding: 25px 0;
+    background-color: #22b3c1;
+    color: #FFF;
+    text-align: center;
+}
+@media(max-width:800px) {
+    .box {
+        justify-content: center;
+        text-align: center;
+        padding: 25px 20px;
+    }
+}
